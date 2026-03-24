@@ -14,6 +14,11 @@ return [
     |
     */
 
+
+    'mailtrap' => [
+    'api_key' => env('MAILTRAP_API_KEY'),
+    ],
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
